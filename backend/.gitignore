@@ -1,1 +1,9 @@
-# Git ignore rules placeholder.
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+
+# Local environment variables
+.env
