@@ -22,3 +22,6 @@ class Settings:
 # Shared settings instance for clean imports across the backend:
 # from app.config import settings
 settings = Settings()
+
+# Direct module-level export for components that only need the database URL.
+DATABASE_URL = settings.DATABASE_URL
