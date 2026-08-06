@@ -1,1 +1,39 @@
-# FastAPI application entry point placeholder.
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
+
+# Application metadata is defined in one place so generated API docs and client
+# integrations describe the backend consistently.
+app = FastAPI(
+    title="SIH PMIS - AI Job Recommendation Backend",
+    description="Backend API for Smart India Hackathon PMIS project",
+    version="1.0.0",
+)
+
+
+# CORS is configured for the local frontend development servers. Credentials,
+# headers, and methods are enabled so browser-based clients can call the API
+# during development without route-specific CORS setup.
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:3000",
+        "http://localhost:5173",
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
+# Routers will be included here as the API grows.
+
+
+@app.get("/")
+def read_root():
+    # Basic health response used to confirm the backend process is running.
+    return {
+        "status": "healthy",
+        "message": "SIH PMIS Backend Running",
+        "version": "1.0.0",
+    }
