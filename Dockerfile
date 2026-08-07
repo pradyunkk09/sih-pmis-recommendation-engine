@@ -9,6 +9,8 @@ RUN pip install --no-cache-dir -r Requirements.txt -r backend_reqs.txt -r ml_req
 
 COPY . .
 
+ENV PYTHONPATH=/app/backend
+
 EXPOSE 8000
 
 CMD ["python", "-m", "uvicorn", "backend.app.main:app", "--host", "0.0.0.0", "--port", "8000"]
