@@ -27,6 +27,19 @@ class JobCreate(JobBase):
 
     pass
 
+class JobUpdate(BaseModel):
+    """
+    Schema used for partially updating an existing job.
+    """
+
+    title: str | None = Field(default=None, min_length=2)
+    company: str | None = Field(default=None, min_length=2)
+    description: str | None = Field(default=None, min_length=10)
+    skills_required: str | None = Field(default=None, min_length=2)
+    location: str | None = Field(default=None, min_length=2)
+    employment_type: str | None = Field(default=None, min_length=2)
+
+    model_config = ConfigDict(from_attributes=True)
 
 class JobResponse(JobBase):
     """

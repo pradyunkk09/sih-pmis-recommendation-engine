@@ -14,7 +14,17 @@ from .resume_service import (
     update_resume,
     delete_resume,
 )
+
+from .job_service import (
+    create_job,
+    get_job_by_id,
+    get_all_jobs,
+    update_job,
+    delete_job,
+)
+
 __all__ = [
+    # User
     "create_user",
     "get_user_by_id",
     "get_user_by_email",
@@ -22,9 +32,17 @@ __all__ = [
     "update_user",
     "delete_user",
 
+    # Resume
     "create_resume",
     "get_resume_by_id",
     "get_resumes_by_user_id",
     "update_resume",
     "delete_resume",
+
+    # Job
+    "create_job",
+    "get_job_by_id",
+    "get_all_jobs",
+    "update_job",
+    "delete_job",
 ]
