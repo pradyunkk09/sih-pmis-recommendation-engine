@@ -21,6 +21,13 @@ class ResumeCreate(ResumeBase):
 
     parsed_text: str | None = None
 
+class ResumeUpdate(BaseModel):
+    filename: str | None = Field(default=None, min_length=1, max_length=255)
+    file_path: str | None = Field(default=None, min_length=1, max_length=500)
+    parsed_text: str | None = None
+
+    model_config = ConfigDict(from_attributes=True)
+
 class ResumeResponse(ResumeBase):
     """Public resume representation returned by API endpoints."""
 

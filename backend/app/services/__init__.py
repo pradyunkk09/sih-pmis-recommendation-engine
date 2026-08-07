@@ -11,6 +11,8 @@ from .resume_service import (
     create_resume,
     get_resume_by_id,
     get_resumes_by_user_id,
+    update_resume,
+    delete_resume,
 )
 __all__ = [
     "create_user",
@@ -23,4 +25,6 @@ __all__ = [
     "create_resume",
     "get_resume_by_id",
     "get_resumes_by_user_id",
+    "update_resume",
+    "delete_resume",
 ]

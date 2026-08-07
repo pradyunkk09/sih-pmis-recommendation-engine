@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Session
 
 from app.models.resume import Resume
-from app.schemas.resume import ResumeCreate
+from app.schemas.resume import ResumeCreate, ResumeUpdate
 
 
 def create_resume(
@@ -25,6 +25,48 @@ def create_resume(
 
     return new_resume
 
+def update_resume(
+    db: Session,
+    resume_id: int,
+    resume_data: ResumeUpdate,
+) -> Resume | None:
+    """
+    Update an existing resume.
+    """
+
+    resume = get_resume_by_id(db, resume_id)
+
+    if resume is None:
+        return None
+
+    update_data = resume_data.model_dump(exclude_unset=True)
+
+    for field, value in update_data.items():
+        setattr(resume, field, value)
+
+    db.commit()
+    db.refresh(resume)
+
+    return resume
+
+
+def delete_resume(
+    db: Session,
+    resume_id: int,
+) -> bool:
+    """
+    Delete a resume.
+    """
+
+    resume = get_resume_by_id(db, resume_id)
+
+    if resume is None:
+        return False
+
+    db.delete(resume)
+    db.commit()
+
+    return True
 
 def get_resume_by_id(
     db: Session,
