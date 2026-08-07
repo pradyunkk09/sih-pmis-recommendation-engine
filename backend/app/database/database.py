@@ -2,6 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
 from app.config import DATABASE_URL
+from app.database.base import Base
 
 
 # The engine manages low-level database connections for the application.
