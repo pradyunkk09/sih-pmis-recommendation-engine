@@ -9,6 +9,10 @@ RUN pip install --no-cache-dir -r Requirements.txt -r backend_reqs.txt -r ml_req
 
 COPY . .
 
+# Pre-seed the ChromaDB database during the build process
+# so it is baked into the image and available on the free tier without a persistent disk!
+RUN python Vector_Store/Seed_db.py
+
 ENV PYTHONPATH=/app/backend
 
 EXPOSE 8000
