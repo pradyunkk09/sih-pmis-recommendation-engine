@@ -1,7 +1,9 @@
+from __future__ import annotations
+
 from datetime import datetime
 
 from sqlalchemy import DateTime, Integer, String
-from sqlalchemy.orm import Mapped, mapped_column
+from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.database.database import Base
 
@@ -25,4 +27,11 @@ class User(Base):
         DateTime,
         nullable=False,
         default=datetime.utcnow,
+    )
+
+    # Resume rows are owned by their user and should be removed with the account.
+    resumes: Mapped[list["Resume"]] = relationship(
+        "Resume",
+        back_populates="user",
+        cascade="all, delete-orphan",
     )
