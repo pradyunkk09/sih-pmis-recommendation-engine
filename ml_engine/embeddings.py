@@ -1,48 +1,50 @@
-"""
-embeddings.py
-=============
-Embedding generation module for the Smart India Hackathon ML Recommendation Engine.
-Responsibility:
-    - Load the multilingual-e5-small SentenceTransformer model (cached after first load)
-    - Encode raw text (candidate profile or job description) into dense vectors
-    - Normalize vectors to unit length so dot-product == cosine similarity
-Author: Member 3 – Lead AI/ML & Recommendation Pipeline Engineer
-"""
+"""Embedding helpers shared by the ML engine modules."""
+from __future__ import annotations
+
 import logging
-from typing import List, Union
+from typing import Sequence
+
 import numpy as np
-from sentence_transformers import SentenceTransformer
-from sklearn.preprocessing import normalize
-import logging
-logging.basicConfig(level=logging.INFO)
+
 logger = logging.getLogger(__name__)
-# ---------------------------------------------------------------------------
-# Model cache: the model is downloaded once and reused across all calls.
-# Using a module-level dict keeps state between function calls without
-# requiring a class instantiation from the caller's side.
-# ---------------------------------------------------------------------------
-_MODEL_CACHE: dict = {}
+
 _DEFAULT_MODEL = "intfloat/multilingual-e5-small"
-class EmbeddingEngine:
-    def __init__(self, model_name: str = "intfloat/multilingual-e5-small"):
-        """
-        Initializes the Embedding Engine.
-        
-        Args:
-            model_name: The name of the sentence-transformer model to use.
-                        Fallback: 'sentence-transformers/all-MiniLM-L6-v2'
-        """
-        self.model_name = model_name
-        self.model = None
-        self._load_model()
-    def _load_model(self):
+_MODEL_CACHE: dict[str, object] = {}
+
+
+def _model(model_name: str = _DEFAULT_MODEL) -> object:
+    """Return a cached SentenceTransformer without loading it at import time."""
+    if model_name not in _MODEL_CACHE:
         try:
-            logger.info(f"Loading embedding model: {self.model_name}")
-            self.model = SentenceTransformer(self.model_name)
-        except Exception as e:
-            logger.error(f"Failed to load primary model {self.model_name}: {e}")
-            logger.info("Falling back to: sentence-transformers/all-MiniLM-L6-v2")
-            try:
-                self.model_name = "sentence-transformers/all-MiniLM-L6-v2"
-                self.model = SentenceTransformer(self.model_name)
-            except Exception as fallback_e:
+            from sentence_transformers import SentenceTransformer
+        except ImportError as exc:  # keep package imports useful before install
+            raise RuntimeError(
+                "sentence-transformers is required for embedding generation. "
+                "Install ml_engine/requirements.txt."
+            ) from exc
+        logger.info("Loading embedding model: %s", model_name)
+        _MODEL_CACHE[model_name] = SentenceTransformer(model_name)
+    return _MODEL_CACHE[model_name]
+
+
+def _normalise(vectors: np.ndarray) -> np.ndarray:
+    vectors = np.asarray(vectors, dtype=np.float32)
+    if vectors.ndim == 1:
+        vectors = vectors.reshape(1, -1)
+    norms = np.linalg.norm(vectors, axis=1, keepdims=True)
+    return vectors / np.maximum(norms, np.finfo(np.float32).eps)
+
+
+def embed_batch(texts: Sequence[str], *, model_name: str = _DEFAULT_MODEL) -> np.ndarray:
+    """Encode text into L2-normalised float32 vectors."""
+    values = [str(text or "") for text in texts]
+    if not values:
+        return np.empty((0, 0), dtype=np.float32)
+    encoder = _model(model_name)
+    vectors = encoder.encode(values, convert_to_numpy=True, show_progress_bar=False)
+    return _normalise(vectors)
+
+
+def embed_text(text: str, *, model_name: str = _DEFAULT_MODEL) -> np.ndarray:
+    """Encode one text value and return a one-dimensional vector."""
+    return embed_batch([text], model_name=model_name)[0]
