@@ -8,13 +8,18 @@ class ResumeBase(BaseModel):
 
     filename: str = Field(..., min_length=1, max_length=255)
 
-
 class ResumeCreate(ResumeBase):
     """Payload for creating a resume record after a file upload."""
 
-    file_path: str = Field(..., min_length=1, max_length=500)
-    parsed_text: str | None = None
+    user_id: int
 
+    file_path: str = Field(
+        ...,
+        min_length=1,
+        max_length=500,
+    )
+
+    parsed_text: str | None = None
 
 class ResumeResponse(ResumeBase):
     """Public resume representation returned by API endpoints."""
