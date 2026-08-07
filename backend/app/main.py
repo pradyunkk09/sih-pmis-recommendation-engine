@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from app.api.routes.auth import router as auth_router
 from app.api.routes.users import router as user_router
 from app.api.routes.resumes import router as resume_router
 from app.api.routes.jobs import router as job_router
@@ -11,6 +12,7 @@ app = FastAPI(
     description="Backend API for Smart India Hackathon PMIS project",
     version="1.0.0",
 )
+app.include_router(auth_router)
 app.include_router(user_router)
 app.include_router(resume_router)
 app.include_router(job_router)

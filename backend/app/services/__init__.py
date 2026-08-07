@@ -23,6 +23,8 @@ from .job_service import (
     delete_job,
 )
 
+from .auth_service import authenticate_user
+
 __all__ = [
     # User
     "create_user",
@@ -45,4 +47,7 @@ __all__ = [
     "get_all_jobs",
     "update_job",
     "delete_job",
+
+    # Authentication
+    "authenticate_user",
 ]
