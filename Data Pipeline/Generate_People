@@ -1,0 +1,70 @@
+import json
+import random
+from faker import Faker
+
+# Use the faker library to generate synthetic data
+fake = Faker('en_IN')
+
+# Randomly generated qualifications
+QUALIFICATIONS = ['10th Pass', '12th Pass', 'Diploma in Engineering', 'B.Sc', 'Graduate']
+CATEGORIES = ['General', 'OBC', 'SC', 'ST', 'EWS']
+DISTRICTS = [
+    # Tamil Nadu, 
+    "Chennai","Coimbatore","Madurai","Kanyakumari","Nilgiris",
+    # Kerala
+    "Thiruvananthapuram","Ernakulam","Wayanad","Palakkad","Kannur",
+    # Karnataka
+    "Bengaluru Urban","Mysuru","Dakshina Kannada","Belagavi","Ballari",
+    # Andhra Pradesh
+    "Visakhapatnam","Vijayawada","Tirupati","Kurnool","East Godavari",
+    # Telangana
+    "Hyderabad","Warangal","Nizamabad","Khammam","Mahabubnagar",
+    # Union Territories
+    "Puducherry","Karaikal",
+    # Delhi (NCT)
+    "New Delhi","Central Delhi",
+    # Uttar Pradesh
+    "Lucknow","Kanpur","Varanasi","Agra","Gautam Buddha Nagar",  
+    # Noida
+    "Prayagraj","Meerut",
+    # Punjab
+    "Ludhiana","Amritsar","Jalandhar","Patiala","Bathinda",
+    # Haryana
+    "Gurugram","Faridabad","Hisar","Panipat","Ambala",
+    # Rajasthan
+    "Jaipur","Jodhpur","Udaipur","Kota","Bikaner",
+    # Himachal Pradesh
+    "Shimla","Dharamshala","Mandi","Kullu",
+    # Uttarakhand
+    "Dehradun","Haridwar","Nainital",
+    # Jammu & Kashmir / Ladakh
+    "Srinagar","Jammu","Leh",
+]
+
+def generate_candidates(count=300):
+    candidates = []
+    
+    for i in range(1, count + 1):
+        candidate = {
+            "candidate_id": f"CAND_{i:03d}",
+            "full_name": fake.name(),
+            "phone_number": fake.phone_number(),  # Member 5 will redact this later
+            "age": random.randint(18, 25),
+            "qualification": random.choice(QUALIFICATIONS),
+            "district": random.choice(DISTRICTS),
+            "category": random.choices(CATEGORIES, weights=[40, 27, 15, 7.5, 10.5])[0],
+            "is_pwd": random.choices([True, False], weights=[5, 95])[0],  # 5% Persons with Disabilities
+            "skills_text": f"Experienced in {fake.job().lower()} with skills in {fake.word()} and {fake.word()}."
+        }
+        candidates.append(candidate)
+        
+    return candidates
+
+if __name__ == "__main__":
+    data = generate_candidates(300)
+    
+    # Save the generated list to candidates.json
+    with open("candidates.json", "w") as f:
+        json.dump(data, f, indent=2)
+        
+    print("Successfully generated 300 synthetic candidates in candidates.json!")
