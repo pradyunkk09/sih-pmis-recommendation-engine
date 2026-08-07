@@ -1,5 +1,5 @@
 from __future__ import annotations
-
+from typing import TYPE_CHECKING
 from datetime import datetime
 
 from sqlalchemy import DateTime, ForeignKey, Integer, String, Text
@@ -27,6 +27,7 @@ class Resume(Base):
         nullable=False,
         default=datetime.utcnow,
     )
-
+    if TYPE_CHECKING:
+        from app.models.user import User
     # Each resume belongs to exactly one user account.
     user: Mapped["User"] = relationship("User", back_populates="resumes")

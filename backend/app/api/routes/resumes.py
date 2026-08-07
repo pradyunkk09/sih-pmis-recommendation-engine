@@ -1,4 +1,14 @@
-from fastapi import APIRouter, Depends, HTTPException, status
+from pathlib import Path
+from uuid import uuid4
+
+from fastapi import (
+    APIRouter,
+    Depends,
+    File,
+    HTTPException,
+    UploadFile,
+    status,
+)
 from sqlalchemy.orm import Session
 
 from app.api.deps import get_db
@@ -20,6 +30,63 @@ router = APIRouter(
     tags=["Resumes"],
 )
 
+UPLOAD_DIR = Path("uploads")
+UPLOAD_DIR.mkdir(exist_ok=True)
+
+ALLOWED_EXTENSIONS = {".pdf", ".docx"}
+MAX_FILE_SIZE = 10 * 1024 * 1024  # 10 MB
+
+@router.post(
+    "/upload",
+    response_model=ResumeResponse,
+    status_code=status.HTTP_201_CREATED,
+)
+async def upload_resume(
+    user_id: int,
+    file: UploadFile = File(...),
+    db: Session = Depends(get_db),
+):
+    """
+    Upload a resume file and create its database record.
+    """
+
+    extension = Path(file.filename).suffix.lower()
+
+    if extension not in ALLOWED_EXTENSIONS:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Only PDF and DOCX files are allowed.",
+        )
+
+    contents = await file.read()
+
+    if len(contents) > MAX_FILE_SIZE:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="File exceeds the maximum allowed size (10 MB).",
+        )
+
+    unique_filename = f"resume_{uuid4().hex}{extension}"
+
+    file_path = UPLOAD_DIR / unique_filename
+
+    try:
+        with open(file_path, "wb") as buffer:
+            buffer.write(contents)
+    except Exception:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail="Failed to save uploaded file.",
+        )
+
+    resume_data = ResumeCreate(
+        user_id=user_id,
+        filename=file.filename,
+        file_path=str(file_path),
+        parsed_text=None,
+    )
+
+    return create_resume(db, resume_data)
 
 @router.post(
     "/",
