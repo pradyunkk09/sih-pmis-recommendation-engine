@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Session
 
 from app.models.user import User
-from app.schemas.user import UserCreate
+from app.schemas.user import UserCreate, UserUpdate
 
 
 def create_user(db: Session, user_data: UserCreate) -> User:
@@ -13,7 +13,7 @@ def create_user(db: Session, user_data: UserCreate) -> User:
         email=user_data.email,
         password=user_data.password,
     )
-    
+
     db.add(new_user)
     db.commit()
     db.refresh(new_user)
@@ -60,3 +60,35 @@ def get_all_users(db: Session) -> list[User]:
         List of User objects.
     """
     return db.query(User).all()
+
+def update_user(
+    db: Session,
+    user_id: int,
+    user_data: UserUpdate,
+) -> User | None:
+    """
+    Update an existing user.
+
+    Args:
+        db: Active SQLAlchemy session.
+        user_id: User ID.
+        user_data: Fields to update.
+
+    Returns:
+        Updated User object, or None if not found.
+    """
+
+    user = get_user_by_id(db, user_id)
+
+    if user is None:
+        return None
+
+    update_data = user_data.model_dump(exclude_unset=True)
+
+    for field, value in update_data.items():
+        setattr(user, field, value)
+
+    db.commit()
+    db.refresh(user)
+
+    return user

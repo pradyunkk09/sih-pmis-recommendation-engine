@@ -16,6 +16,11 @@ class UserCreate(UserBase):
     password: str = Field(..., min_length=8, max_length=128)
     role: str = Field(default="candidate", min_length=1, max_length=20)
 
+class UserUpdate(BaseModel):
+    full_name: str | None = None
+    email: str | None = None
+
+    model_config = ConfigDict(from_attributes=True)
 
 class UserLogin(BaseModel):
     """Payload for authenticating an existing user."""
