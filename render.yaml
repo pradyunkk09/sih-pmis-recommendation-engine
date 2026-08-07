@@ -2,11 +2,7 @@ services:
   - type: web
     name: pmis-backend
     env: docker
-    plan: starter # Note: persistent disks require a paid plan on Render
-    disk:
-      name: chroma_db
-      mountPath: /app/Vector_Store/chroma_db
-      sizeGB: 1
+    plan: free
     envVars:
       - key: PYTHONUNBUFFERED
         value: "1"
