@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: pmis-backend
+    env: python
+    region: frankfurt
+    plan: free
+    # Start command for the FastAPI app
+    startCommand: "uvicorn backend.api:app --host 0.0.0.0 --port $PORT"
+    # Assuming Member 2's requirements are here
+    buildCommand: "pip install -r backend/requirements.txt"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.0
+      - key: VECTOR_STORE_TYPE
+        value: chroma
+    # Optional persistent disk for ChromaDB local storage if needed in the cloud
+    disk:
+      name: chroma-data
+      mountPath: /opt/render/project/src/chroma_db
+      sizeGB: 1
