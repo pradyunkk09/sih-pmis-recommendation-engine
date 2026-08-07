@@ -22,6 +22,11 @@ class Resume(Base):
     filename: Mapped[str] = mapped_column(String(255), nullable=False)
     file_path: Mapped[str] = mapped_column(String(500), nullable=False)
     parsed_text: Mapped[str | None] = mapped_column(Text, nullable=True)
+    qualification: Mapped[str | None] = mapped_column(String(100), nullable=True)
+    skills: Mapped[str | None] = mapped_column(Text, nullable=True)
+    district: Mapped[str | None] = mapped_column(String(100), nullable=True)
+    state: Mapped[str | None] = mapped_column(String(100), nullable=True)
+    profile_summary: Mapped[str | None] = mapped_column(Text, nullable=True)
     upload_date: Mapped[datetime] = mapped_column(
         DateTime,
         nullable=False,

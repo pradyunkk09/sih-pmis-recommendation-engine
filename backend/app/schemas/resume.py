@@ -20,12 +20,21 @@ class ResumeCreate(ResumeBase):
     )
 
     parsed_text: str | None = None
+    qualification: str | None = None
+    skills: str | None = None
+    district: str | None = None
+    state: str | None = None
+    profile_summary: str | None = None
 
 class ResumeUpdate(BaseModel):
     filename: str | None = Field(default=None, min_length=1, max_length=255)
     file_path: str | None = Field(default=None, min_length=1, max_length=500)
     parsed_text: str | None = None
-
+    qualification: str | None = None
+    skills: str | None = None
+    district: str | None = None
+    state: str | None = None
+    profile_summary: str | None = None
     model_config = ConfigDict(from_attributes=True)
 
 class ResumeResponse(ResumeBase):
@@ -38,3 +47,8 @@ class ResumeResponse(ResumeBase):
     file_path: str
     parsed_text: str | None
     upload_date: datetime
+    qualification: str | None
+    skills: str | None
+    district: str | None
+    state: str | None
+    profile_summary: str | None
