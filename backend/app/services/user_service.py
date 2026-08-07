@@ -92,3 +92,25 @@ def update_user(
     db.refresh(user)
 
     return user
+
+def delete_user(db: Session, user_id: int) -> bool:
+    """
+    Delete a user from the database.
+
+    Args:
+        db: Active SQLAlchemy session.
+        user_id: Primary key of the user.
+
+    Returns:
+        True if the user was deleted, False if the user was not found.
+    """
+
+    user = get_user_by_id(db, user_id)
+
+    if user is None:
+        return False
+
+    db.delete(user)
+    db.commit()
+
+    return True
