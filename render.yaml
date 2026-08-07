@@ -13,8 +13,3 @@ services:
         value: 3.9.0
       - key: VECTOR_STORE_TYPE
         value: chroma
-    # Optional persistent disk for ChromaDB local storage if needed in the cloud
-    disk:
-      name: chroma-data
-      mountPath: /opt/render/project/src/chroma_db
-      sizeGB: 1
