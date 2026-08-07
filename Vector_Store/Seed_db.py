@@ -14,7 +14,7 @@ def seed():
         with open(CANDIDATES_PATH, "r") as f:
             candidates = json.load(f)
 
-        ids = [str(c.get("id", i)) for i, c in enumerate(candidates)]
+        ids = [str(c.get("candidate_id", i)) for i, c in enumerate(candidates)]
         # Generate 384-dimensional vector placeholders (multilingual-e5-small dimensions)
         embeddings = [np.random.rand(384).tolist() for _ in candidates]
         metadatas = [
@@ -32,11 +32,11 @@ def seed():
         with open(JOBS_PATH, "r") as f:
             jobs = json.load(f)
 
-        ids = [str(j.get("id", i)) for i, j in enumerate(jobs)]
+        ids = [str(j.get("job_id", i)) for i, j in enumerate(jobs)]
         embeddings = [np.random.rand(384).tolist() for _ in jobs]
         metadatas = [
             {
-                "title": str(j.get("title", "")),
+                "title": str(j.get("job_title", "")),
                 "district": str(j.get("district", ""))
             }
             for j in jobs
