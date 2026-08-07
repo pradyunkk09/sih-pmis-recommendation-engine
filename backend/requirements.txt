@@ -6,7 +6,6 @@ python-dotenv
 passlib[bcrypt]
 bcrypt<4.1
 python-jose[cryptography]
-python
 numpy>=1.24
 faiss-cpu>=1.8.0
 sentence-transformers>=2.7.0
