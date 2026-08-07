@@ -42,7 +42,15 @@ def search_candidates(query_vector, top_k=5):
         n_results=top_k
     )
     return results
-
+def search_jobs(query_vector, top_k=5):
+    """
+    Searches for the closest matching job vectors given a candidate embedding.
+    """
+    results = job_collection.query(
+        query_embeddings=[query_vector],
+        n_results=top_k
+    )
+    return results
 if __name__ == "__main__":
     print("ChromaDB Client initialized successfully!")
     print(f"Database location: {DB_DIR}")

@@ -1,0 +1,12 @@
+YAML
+version: '3.8'
+
+services:
+  pmis-backend:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./Vector_Store/chroma_db:/app/Vector_Store/chroma_db
+    environment:
+      - PYTHONUNBUFFERED=1
