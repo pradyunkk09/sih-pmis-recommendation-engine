@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.routes.users import router as user_router
+from app.api.routes.resumes import router as resume_router
 
 
 # Application metadata is defined in one place so generated API docs and client
@@ -11,6 +12,7 @@ app = FastAPI(
     version="1.0.0",
 )
 app.include_router(user_router)
+app.include_router(resume_router)
 
 # CORS is configured for the local frontend development servers. Credentials,
 # headers, and methods are enabled so browser-based clients can call the API
