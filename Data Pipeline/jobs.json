@@ -1,0 +1,1002 @@
+[
+  {
+    "job_id": "JOB_001",
+    "job_title": "Welder & Fabricator Trainee",
+    "company_name": "Bhandari, Solanki and Bhavsar Tech",
+    "district": "Leh",
+    "role_category": "Renewable Energy",
+    "min_qualification": "B.Sc",
+    "stipend_amount": 18000,
+    "job_description": "Seeking enthusiastic apprentices for renewable energy roles. Requires basic technical understanding and hands-on tool operation. Position based in Bikaner district."
+  },
+  {
+    "job_id": "JOB_002",
+    "job_title": "Manufacturing Technician Trainee",
+    "company_name": "Dyal-Ravi Tech",
+    "district": "Vijayawada",
+    "role_category": "Electrical & Electronics",
+    "min_qualification": "12th Pass",
+    "stipend_amount": 10000,
+    "job_description": "Seeking enthusiastic apprentices for manufacturing & production roles. Requires basic technical understanding and hands-on tool operation. Position based in Belagavi district."
+  },
+  {
+    "job_id": "JOB_003",
+    "job_title": "Welder & Fabricator Trainee",
+    "company_name": "Peri Group Tech",
+    "district": "Leh",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "Diploma in Engineering",
+    "stipend_amount": 18000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in Faridabad district."
+  },
+  {
+    "job_id": "JOB_004",
+    "job_title": "Quality Control Inspector Apprentice",
+    "company_name": "Varma PLC Tech",
+    "district": "Gautam Buddha Nagar",
+    "role_category": "Electrical & Electronics",
+    "min_qualification": "12th Pass",
+    "stipend_amount": 12000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Jodhpur district."
+  },
+  {
+    "job_id": "JOB_005",
+    "job_title": "Quality Control Inspector Apprentice",
+    "company_name": "Mall Inc Tech",
+    "district": "Srinagar",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "Graduate",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in Hyderabad district."
+  },
+  {
+    "job_id": "JOB_006",
+    "job_title": "Welder & Fabricator Trainee",
+    "company_name": "Keer PLC Tech",
+    "district": "Thiruvananthapuram",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "Diploma in Engineering",
+    "stipend_amount": 10000,
+    "job_description": "Seeking enthusiastic apprentices for manufacturing & production roles. Requires basic technical understanding and hands-on tool operation. Position based in Nilgiris district."
+  },
+  {
+    "job_id": "JOB_007",
+    "job_title": "Field Support Technician",
+    "company_name": "Raval, Sagar and Madan Tech",
+    "district": "Visakhapatnam",
+    "role_category": "Automotive Services",
+    "min_qualification": "12th Pass",
+    "stipend_amount": 8000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in Meerut district."
+  },
+  {
+    "job_id": "JOB_008",
+    "job_title": "Quality Control Inspector Apprentice",
+    "company_name": "Shenoy, Mukhopadhyay and Barad Tech",
+    "district": "Srinagar",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "B.Sc",
+    "stipend_amount": 12000,
+    "job_description": "Seeking enthusiastic apprentices for manufacturing & production roles. Requires basic technical understanding and hands-on tool operation. Position based in Tirupati district."
+  },
+  {
+    "job_id": "JOB_009",
+    "job_title": "Electrical Maintenance Apprentice",
+    "company_name": "Palan-Ram Tech",
+    "district": "Mysuru",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "10th Pass",
+    "stipend_amount": 10000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Thiruvananthapuram district."
+  },
+  {
+    "job_id": "JOB_010",
+    "job_title": "Welder & Fabricator Trainee",
+    "company_name": "Venkataraman-Virk Tech",
+    "district": "Meerut",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "10th Pass",
+    "stipend_amount": 10000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Dharamshala district."
+  },
+  {
+    "job_id": "JOB_011",
+    "job_title": "Electrical Maintenance Apprentice",
+    "company_name": "Bhavsar, Aurora and Natt Tech",
+    "district": "Kanyakumari",
+    "role_category": "Electrical & Electronics",
+    "min_qualification": "12th Pass",
+    "stipend_amount": 10000,
+    "job_description": "Seeking enthusiastic apprentices for quality assurance roles. Requires basic technical understanding and hands-on tool operation. Position based in Gurugram district."
+  },
+  {
+    "job_id": "JOB_012",
+    "job_title": "Quality Control Inspector Apprentice",
+    "company_name": "Nagarajan Inc Tech",
+    "district": "Shimla",
+    "role_category": "Renewable Energy",
+    "min_qualification": "B.Sc",
+    "stipend_amount": 12000,
+    "job_description": "Seeking enthusiastic apprentices for renewable energy roles. Requires basic technical understanding and hands-on tool operation. Position based in Kanyakumari district."
+  },
+  {
+    "job_id": "JOB_013",
+    "job_title": "Automotive Service Assistant",
+    "company_name": "Kant, Natt and Sathe Tech",
+    "district": "Dharamshala",
+    "role_category": "Electrical & Electronics",
+    "min_qualification": "B.Sc",
+    "stipend_amount": 8000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Gautam Buddha Nagar district."
+  },
+  {
+    "job_id": "JOB_014",
+    "job_title": "Electrical Maintenance Apprentice",
+    "company_name": "Singh-Choudhary Tech",
+    "district": "Nainital",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "B.Sc",
+    "stipend_amount": 12000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Dakshina Kannada district."
+  },
+  {
+    "job_id": "JOB_015",
+    "job_title": "Field Support Technician",
+    "company_name": "Saran, Zachariah and Golla Tech",
+    "district": "Agra",
+    "role_category": "Renewable Energy",
+    "min_qualification": "12th Pass",
+    "stipend_amount": 18000,
+    "job_description": "Seeking enthusiastic apprentices for quality assurance roles. Requires basic technical understanding and hands-on tool operation. Position based in Varanasi district."
+  },
+  {
+    "job_id": "JOB_016",
+    "job_title": "Welder & Fabricator Trainee",
+    "company_name": "Chandra, Sandhu and Tank Tech",
+    "district": "Dharamshala",
+    "role_category": "Electrical & Electronics",
+    "min_qualification": "B.Sc",
+    "stipend_amount": 8000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Haridwar district."
+  },
+  {
+    "job_id": "JOB_017",
+    "job_title": "Field Support Technician",
+    "company_name": "Devi and Sons Tech",
+    "district": "Kota",
+    "role_category": "Electrical & Electronics",
+    "min_qualification": "Graduate",
+    "stipend_amount": 18000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Kannur district."
+  },
+  {
+    "job_id": "JOB_018",
+    "job_title": "Electrical Maintenance Apprentice",
+    "company_name": "Nadig Inc Tech",
+    "district": "Jaipur",
+    "role_category": "Automotive Services",
+    "min_qualification": "12th Pass",
+    "stipend_amount": 10000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Gurugram district."
+  },
+  {
+    "job_id": "JOB_019",
+    "job_title": "Field Support Technician",
+    "company_name": "Deep, Kothari and Andra Tech",
+    "district": "Jalandhar",
+    "role_category": "Quality Assurance",
+    "min_qualification": "Graduate",
+    "stipend_amount": 18000,
+    "job_description": "Seeking enthusiastic apprentices for renewable energy roles. Requires basic technical understanding and hands-on tool operation. Position based in Nilgiris district."
+  },
+  {
+    "job_id": "JOB_020",
+    "job_title": "CNC Machine Operator Trainee",
+    "company_name": "Trivedi, Wagle and Tank Tech",
+    "district": "Faridabad",
+    "role_category": "Electrical & Electronics",
+    "min_qualification": "10th Pass",
+    "stipend_amount": 12000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Mandi district."
+  },
+  {
+    "job_id": "JOB_021",
+    "job_title": "Electrical Maintenance Apprentice",
+    "company_name": "Chopra-Varkey Tech",
+    "district": "Kurnool",
+    "role_category": "Quality Assurance",
+    "min_qualification": "10th Pass",
+    "stipend_amount": 18000,
+    "job_description": "Seeking enthusiastic apprentices for quality assurance roles. Requires basic technical understanding and hands-on tool operation. Position based in Nainital district."
+  },
+  {
+    "job_id": "JOB_022",
+    "job_title": "Automotive Service Assistant",
+    "company_name": "Kota, Gandhi and Malhotra Tech",
+    "district": "Dehradun",
+    "role_category": "Renewable Energy",
+    "min_qualification": "10th Pass",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Bengaluru Urban district."
+  },
+  {
+    "job_id": "JOB_023",
+    "job_title": "Automotive Service Assistant",
+    "company_name": "Sarraf Ltd Tech",
+    "district": "Tirupati",
+    "role_category": "Quality Assurance",
+    "min_qualification": "12th Pass",
+    "stipend_amount": 10000,
+    "job_description": "Seeking enthusiastic apprentices for renewable energy roles. Requires basic technical understanding and hands-on tool operation. Position based in Shimla district."
+  },
+  {
+    "job_id": "JOB_024",
+    "job_title": "Solar Panel Installation Helper",
+    "company_name": "Nagarajan Group Tech",
+    "district": "Patiala",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "Graduate",
+    "stipend_amount": 18000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in Kanyakumari district."
+  },
+  {
+    "job_id": "JOB_025",
+    "job_title": "Manufacturing Technician Trainee",
+    "company_name": "Radhakrishnan LLC Tech",
+    "district": "Jaipur",
+    "role_category": "Renewable Energy",
+    "min_qualification": "Diploma in Engineering",
+    "stipend_amount": 12000,
+    "job_description": "Seeking enthusiastic apprentices for renewable energy roles. Requires basic technical understanding and hands-on tool operation. Position based in Lucknow district."
+  },
+  {
+    "job_id": "JOB_026",
+    "job_title": "Manufacturing Technician Trainee",
+    "company_name": "Ramakrishnan-Subramanian Tech",
+    "district": "Nilgiris",
+    "role_category": "Electrical & Electronics",
+    "min_qualification": "12th Pass",
+    "stipend_amount": 10000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in Kota district."
+  },
+  {
+    "job_id": "JOB_027",
+    "job_title": "Solar Panel Installation Helper",
+    "company_name": "Nigam PLC Tech",
+    "district": "New Delhi",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "Diploma in Engineering",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in New Delhi district."
+  },
+  {
+    "job_id": "JOB_028",
+    "job_title": "CNC Machine Operator Trainee",
+    "company_name": "Gupta-Sampath Tech",
+    "district": "Haridwar",
+    "role_category": "Renewable Energy",
+    "min_qualification": "10th Pass",
+    "stipend_amount": 18000,
+    "job_description": "Seeking enthusiastic apprentices for quality assurance roles. Requires basic technical understanding and hands-on tool operation. Position based in Khammam district."
+  },
+  {
+    "job_id": "JOB_029",
+    "job_title": "Automotive Service Assistant",
+    "company_name": "Merchant, Virk and Konda Tech",
+    "district": "Kullu",
+    "role_category": "Renewable Energy",
+    "min_qualification": "10th Pass",
+    "stipend_amount": 18000,
+    "job_description": "Seeking enthusiastic apprentices for manufacturing & production roles. Requires basic technical understanding and hands-on tool operation. Position based in Jaipur district."
+  },
+  {
+    "job_id": "JOB_030",
+    "job_title": "Automotive Service Assistant",
+    "company_name": "Saha, Kumer and Mital Tech",
+    "district": "Bengaluru Urban",
+    "role_category": "Electrical & Electronics",
+    "min_qualification": "Diploma in Engineering",
+    "stipend_amount": 10000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Kannur district."
+  },
+  {
+    "job_id": "JOB_031",
+    "job_title": "Quality Control Inspector Apprentice",
+    "company_name": "Shankar Ltd Tech",
+    "district": "New Delhi",
+    "role_category": "Electrical & Electronics",
+    "min_qualification": "B.Sc",
+    "stipend_amount": 12000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in Puducherry district."
+  },
+  {
+    "job_id": "JOB_032",
+    "job_title": "Electrical Maintenance Apprentice",
+    "company_name": "Kothari-Rana Tech",
+    "district": "Vijayawada",
+    "role_category": "Renewable Energy",
+    "min_qualification": "Graduate",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for manufacturing & production roles. Requires basic technical understanding and hands-on tool operation. Position based in Mysuru district."
+  },
+  {
+    "job_id": "JOB_033",
+    "job_title": "Field Support Technician",
+    "company_name": "Mall, Bawa and Pal Tech",
+    "district": "Shimla",
+    "role_category": "Quality Assurance",
+    "min_qualification": "Graduate",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Shimla district."
+  },
+  {
+    "job_id": "JOB_034",
+    "job_title": "Welder & Fabricator Trainee",
+    "company_name": "Khosla, Luthra and Sood Tech",
+    "district": "Nainital",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "B.Sc",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for renewable energy roles. Requires basic technical understanding and hands-on tool operation. Position based in Warangal district."
+  },
+  {
+    "job_id": "JOB_035",
+    "job_title": "Manufacturing Technician Trainee",
+    "company_name": "Kala-Goda Tech",
+    "district": "Lucknow",
+    "role_category": "Electrical & Electronics",
+    "min_qualification": "B.Sc",
+    "stipend_amount": 12000,
+    "job_description": "Seeking enthusiastic apprentices for renewable energy roles. Requires basic technical understanding and hands-on tool operation. Position based in Ambala district."
+  },
+  {
+    "job_id": "JOB_036",
+    "job_title": "Quality Control Inspector Apprentice",
+    "company_name": "Dugal Group Tech",
+    "district": "Meerut",
+    "role_category": "Electrical & Electronics",
+    "min_qualification": "10th Pass",
+    "stipend_amount": 18000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in Dehradun district."
+  },
+  {
+    "job_id": "JOB_037",
+    "job_title": "Electrical Maintenance Apprentice",
+    "company_name": "Morar, Rama and Parekh Tech",
+    "district": "Prayagraj",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "B.Sc",
+    "stipend_amount": 18000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Panipat district."
+  },
+  {
+    "job_id": "JOB_038",
+    "job_title": "CNC Machine Operator Trainee",
+    "company_name": "Viswanathan Inc Tech",
+    "district": "Mandi",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "Diploma in Engineering",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for renewable energy roles. Requires basic technical understanding and hands-on tool operation. Position based in Dakshina Kannada district."
+  },
+  {
+    "job_id": "JOB_039",
+    "job_title": "CNC Machine Operator Trainee",
+    "company_name": "Agate, Uppal and Sura Tech",
+    "district": "Faridabad",
+    "role_category": "Renewable Energy",
+    "min_qualification": "Diploma in Engineering",
+    "stipend_amount": 12000,
+    "job_description": "Seeking enthusiastic apprentices for renewable energy roles. Requires basic technical understanding and hands-on tool operation. Position based in Madurai district."
+  },
+  {
+    "job_id": "JOB_040",
+    "job_title": "Field Support Technician",
+    "company_name": "Cheema, Zacharia and Lall Tech",
+    "district": "Meerut",
+    "role_category": "Automotive Services",
+    "min_qualification": "10th Pass",
+    "stipend_amount": 18000,
+    "job_description": "Seeking enthusiastic apprentices for manufacturing & production roles. Requires basic technical understanding and hands-on tool operation. Position based in Chennai district."
+  },
+  {
+    "job_id": "JOB_041",
+    "job_title": "Welder & Fabricator Trainee",
+    "company_name": "Munshi, Pillay and Pradhan Tech",
+    "district": "Kannur",
+    "role_category": "Automotive Services",
+    "min_qualification": "Graduate",
+    "stipend_amount": 8000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in Chennai district."
+  },
+  {
+    "job_id": "JOB_042",
+    "job_title": "Automotive Service Assistant",
+    "company_name": "Pathak Ltd Tech",
+    "district": "Madurai",
+    "role_category": "Renewable Energy",
+    "min_qualification": "12th Pass",
+    "stipend_amount": 18000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in Mysuru district."
+  },
+  {
+    "job_id": "JOB_043",
+    "job_title": "Solar Panel Installation Helper",
+    "company_name": "Arya Ltd Tech",
+    "district": "Panipat",
+    "role_category": "Automotive Services",
+    "min_qualification": "10th Pass",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for quality assurance roles. Requires basic technical understanding and hands-on tool operation. Position based in Nilgiris district."
+  },
+  {
+    "job_id": "JOB_044",
+    "job_title": "Welder & Fabricator Trainee",
+    "company_name": "Toor-Balan Tech",
+    "district": "Khammam",
+    "role_category": "Automotive Services",
+    "min_qualification": "B.Sc",
+    "stipend_amount": 12000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in Visakhapatnam district."
+  },
+  {
+    "job_id": "JOB_045",
+    "job_title": "Manufacturing Technician Trainee",
+    "company_name": "Shanker-Shetty Tech",
+    "district": "Nainital",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "Graduate",
+    "stipend_amount": 10000,
+    "job_description": "Seeking enthusiastic apprentices for manufacturing & production roles. Requires basic technical understanding and hands-on tool operation. Position based in Agra district."
+  },
+  {
+    "job_id": "JOB_046",
+    "job_title": "Field Support Technician",
+    "company_name": "Solanki Group Tech",
+    "district": "Nilgiris",
+    "role_category": "Quality Assurance",
+    "min_qualification": "B.Sc",
+    "stipend_amount": 12000,
+    "job_description": "Seeking enthusiastic apprentices for manufacturing & production roles. Requires basic technical understanding and hands-on tool operation. Position based in Palakkad district."
+  },
+  {
+    "job_id": "JOB_047",
+    "job_title": "Automotive Service Assistant",
+    "company_name": "Baral PLC Tech",
+    "district": "Srinagar",
+    "role_category": "Automotive Services",
+    "min_qualification": "10th Pass",
+    "stipend_amount": 12000,
+    "job_description": "Seeking enthusiastic apprentices for renewable energy roles. Requires basic technical understanding and hands-on tool operation. Position based in Shimla district."
+  },
+  {
+    "job_id": "JOB_048",
+    "job_title": "Manufacturing Technician Trainee",
+    "company_name": "Sampath-Bandi Tech",
+    "district": "Hisar",
+    "role_category": "Automotive Services",
+    "min_qualification": "Diploma in Engineering",
+    "stipend_amount": 18000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in Panipat district."
+  },
+  {
+    "job_id": "JOB_049",
+    "job_title": "Solar Panel Installation Helper",
+    "company_name": "Rout-Magar Tech",
+    "district": "Bikaner",
+    "role_category": "Quality Assurance",
+    "min_qualification": "B.Sc",
+    "stipend_amount": 8000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in Ambala district."
+  },
+  {
+    "job_id": "JOB_050",
+    "job_title": "Field Support Technician",
+    "company_name": "Samra, Mishra and Atwal Tech",
+    "district": "Amritsar",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "10th Pass",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Mysuru district."
+  },
+  {
+    "job_id": "JOB_051",
+    "job_title": "Automotive Service Assistant",
+    "company_name": "Agate, Sunder and Ganesh Tech",
+    "district": "Hyderabad",
+    "role_category": "Automotive Services",
+    "min_qualification": "10th Pass",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in Gautam Buddha Nagar district."
+  },
+  {
+    "job_id": "JOB_052",
+    "job_title": "Solar Panel Installation Helper",
+    "company_name": "Gade, Halder and Saran Tech",
+    "district": "Jammu",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "10th Pass",
+    "stipend_amount": 18000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Lucknow district."
+  },
+  {
+    "job_id": "JOB_053",
+    "job_title": "Field Support Technician",
+    "company_name": "Dugar, Manda and Jha Tech",
+    "district": "Khammam",
+    "role_category": "Quality Assurance",
+    "min_qualification": "12th Pass",
+    "stipend_amount": 10000,
+    "job_description": "Seeking enthusiastic apprentices for quality assurance roles. Requires basic technical understanding and hands-on tool operation. Position based in Leh district."
+  },
+  {
+    "job_id": "JOB_054",
+    "job_title": "Quality Control Inspector Apprentice",
+    "company_name": "Kade-Jain Tech",
+    "district": "Jammu",
+    "role_category": "Automotive Services",
+    "min_qualification": "10th Pass",
+    "stipend_amount": 10000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in Nizamabad district."
+  },
+  {
+    "job_id": "JOB_055",
+    "job_title": "Automotive Service Assistant",
+    "company_name": "Patla Inc Tech",
+    "district": "Prayagraj",
+    "role_category": "Electrical & Electronics",
+    "min_qualification": "Diploma in Engineering",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for renewable energy roles. Requires basic technical understanding and hands-on tool operation. Position based in Panipat district."
+  },
+  {
+    "job_id": "JOB_056",
+    "job_title": "Welder & Fabricator Trainee",
+    "company_name": "Bhargava-Dar Tech",
+    "district": "Jodhpur",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "Graduate",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Belagavi district."
+  },
+  {
+    "job_id": "JOB_057",
+    "job_title": "Field Support Technician",
+    "company_name": "Raval, Chakrabarti and Karpe Tech",
+    "district": "Khammam",
+    "role_category": "Electrical & Electronics",
+    "min_qualification": "12th Pass",
+    "stipend_amount": 10000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Prayagraj district."
+  },
+  {
+    "job_id": "JOB_058",
+    "job_title": "Solar Panel Installation Helper",
+    "company_name": "Dash Inc Tech",
+    "district": "Meerut",
+    "role_category": "Quality Assurance",
+    "min_qualification": "Diploma in Engineering",
+    "stipend_amount": 10000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in Mahabubnagar district."
+  },
+  {
+    "job_id": "JOB_059",
+    "job_title": "Manufacturing Technician Trainee",
+    "company_name": "Yogi, Comar and Dalal Tech",
+    "district": "Chennai",
+    "role_category": "Renewable Energy",
+    "min_qualification": "B.Sc",
+    "stipend_amount": 10000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Tirupati district."
+  },
+  {
+    "job_id": "JOB_060",
+    "job_title": "Automotive Service Assistant",
+    "company_name": "Sangha, Bora and Venkatesh Tech",
+    "district": "Visakhapatnam",
+    "role_category": "Automotive Services",
+    "min_qualification": "Graduate",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for renewable energy roles. Requires basic technical understanding and hands-on tool operation. Position based in Kanpur district."
+  },
+  {
+    "job_id": "JOB_061",
+    "job_title": "Welder & Fabricator Trainee",
+    "company_name": "Narula-Jani Tech",
+    "district": "Mandi",
+    "role_category": "Quality Assurance",
+    "min_qualification": "B.Sc",
+    "stipend_amount": 8000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in Visakhapatnam district."
+  },
+  {
+    "job_id": "JOB_062",
+    "job_title": "Electrical Maintenance Apprentice",
+    "company_name": "Bhat Ltd Tech",
+    "district": "Lucknow",
+    "role_category": "Automotive Services",
+    "min_qualification": "Diploma in Engineering",
+    "stipend_amount": 8000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in Kanyakumari district."
+  },
+  {
+    "job_id": "JOB_063",
+    "job_title": "Automotive Service Assistant",
+    "company_name": "Bhat, Brar and Chowdhury Tech",
+    "district": "Dehradun",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "10th Pass",
+    "stipend_amount": 18000,
+    "job_description": "Seeking enthusiastic apprentices for renewable energy roles. Requires basic technical understanding and hands-on tool operation. Position based in Nilgiris district."
+  },
+  {
+    "job_id": "JOB_064",
+    "job_title": "Electrical Maintenance Apprentice",
+    "company_name": "Prabhu-Pai Tech",
+    "district": "Gautam Buddha Nagar",
+    "role_category": "Quality Assurance",
+    "min_qualification": "12th Pass",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in Mysuru district."
+  },
+  {
+    "job_id": "JOB_065",
+    "job_title": "Quality Control Inspector Apprentice",
+    "company_name": "Raja, Anne and Kalita Tech",
+    "district": "Gautam Buddha Nagar",
+    "role_category": "Automotive Services",
+    "min_qualification": "B.Sc",
+    "stipend_amount": 18000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Amritsar district."
+  },
+  {
+    "job_id": "JOB_066",
+    "job_title": "Welder & Fabricator Trainee",
+    "company_name": "Srinivasan, Vala and Loyal Tech",
+    "district": "Jalandhar",
+    "role_category": "Automotive Services",
+    "min_qualification": "B.Sc",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for renewable energy roles. Requires basic technical understanding and hands-on tool operation. Position based in Srinagar district."
+  },
+  {
+    "job_id": "JOB_067",
+    "job_title": "Welder & Fabricator Trainee",
+    "company_name": "Sridhar-Karnik Tech",
+    "district": "Madurai",
+    "role_category": "Renewable Energy",
+    "min_qualification": "10th Pass",
+    "stipend_amount": 8000,
+    "job_description": "Seeking enthusiastic apprentices for renewable energy roles. Requires basic technical understanding and hands-on tool operation. Position based in Thiruvananthapuram district."
+  },
+  {
+    "job_id": "JOB_068",
+    "job_title": "CNC Machine Operator Trainee",
+    "company_name": "Dutt-Chauhan Tech",
+    "district": "Jammu",
+    "role_category": "Quality Assurance",
+    "min_qualification": "12th Pass",
+    "stipend_amount": 18000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Dehradun district."
+  },
+  {
+    "job_id": "JOB_069",
+    "job_title": "Solar Panel Installation Helper",
+    "company_name": "Edwin Ltd Tech",
+    "district": "Kullu",
+    "role_category": "Electrical & Electronics",
+    "min_qualification": "Graduate",
+    "stipend_amount": 18000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Prayagraj district."
+  },
+  {
+    "job_id": "JOB_070",
+    "job_title": "Manufacturing Technician Trainee",
+    "company_name": "Cherian-Shanker Tech",
+    "district": "Srinagar",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "10th Pass",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Lucknow district."
+  },
+  {
+    "job_id": "JOB_071",
+    "job_title": "Electrical Maintenance Apprentice",
+    "company_name": "Reddy PLC Tech",
+    "district": "Kota",
+    "role_category": "Quality Assurance",
+    "min_qualification": "Diploma in Engineering",
+    "stipend_amount": 12000,
+    "job_description": "Seeking enthusiastic apprentices for manufacturing & production roles. Requires basic technical understanding and hands-on tool operation. Position based in Lucknow district."
+  },
+  {
+    "job_id": "JOB_072",
+    "job_title": "Quality Control Inspector Apprentice",
+    "company_name": "Venkatesh, Sethi and Dara Tech",
+    "district": "Prayagraj",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "Graduate",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Jammu district."
+  },
+  {
+    "job_id": "JOB_073",
+    "job_title": "Welder & Fabricator Trainee",
+    "company_name": "Kumar Inc Tech",
+    "district": "Tirupati",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "Graduate",
+    "stipend_amount": 18000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in Warangal district."
+  },
+  {
+    "job_id": "JOB_074",
+    "job_title": "Electrical Maintenance Apprentice",
+    "company_name": "Jaggi LLC Tech",
+    "district": "Ludhiana",
+    "role_category": "Renewable Energy",
+    "min_qualification": "Diploma in Engineering",
+    "stipend_amount": 10000,
+    "job_description": "Seeking enthusiastic apprentices for quality assurance roles. Requires basic technical understanding and hands-on tool operation. Position based in Jalandhar district."
+  },
+  {
+    "job_id": "JOB_075",
+    "job_title": "Automotive Service Assistant",
+    "company_name": "Puri, Randhawa and Pall Tech",
+    "district": "Warangal",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "12th Pass",
+    "stipend_amount": 8000,
+    "job_description": "Seeking enthusiastic apprentices for quality assurance roles. Requires basic technical understanding and hands-on tool operation. Position based in Mandi district."
+  },
+  {
+    "job_id": "JOB_076",
+    "job_title": "Automotive Service Assistant",
+    "company_name": "Kota-Sarkar Tech",
+    "district": "Bikaner",
+    "role_category": "Automotive Services",
+    "min_qualification": "Graduate",
+    "stipend_amount": 12000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in Haridwar district."
+  },
+  {
+    "job_id": "JOB_077",
+    "job_title": "Manufacturing Technician Trainee",
+    "company_name": "Malhotra-Goyal Tech",
+    "district": "Panipat",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "12th Pass",
+    "stipend_amount": 12000,
+    "job_description": "Seeking enthusiastic apprentices for renewable energy roles. Requires basic technical understanding and hands-on tool operation. Position based in New Delhi district."
+  },
+  {
+    "job_id": "JOB_078",
+    "job_title": "Electrical Maintenance Apprentice",
+    "company_name": "Oommen, Sridhar and Tata Tech",
+    "district": "Patiala",
+    "role_category": "Automotive Services",
+    "min_qualification": "12th Pass",
+    "stipend_amount": 18000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in East Godavari district."
+  },
+  {
+    "job_id": "JOB_079",
+    "job_title": "Electrical Maintenance Apprentice",
+    "company_name": "Pall LLC Tech",
+    "district": "Central Delhi",
+    "role_category": "Electrical & Electronics",
+    "min_qualification": "10th Pass",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Patiala district."
+  },
+  {
+    "job_id": "JOB_080",
+    "job_title": "Welder & Fabricator Trainee",
+    "company_name": "Bumb-Hans Tech",
+    "district": "Mandi",
+    "role_category": "Quality Assurance",
+    "min_qualification": "B.Sc",
+    "stipend_amount": 10000,
+    "job_description": "Seeking enthusiastic apprentices for quality assurance roles. Requires basic technical understanding and hands-on tool operation. Position based in Srinagar district."
+  },
+  {
+    "job_id": "JOB_081",
+    "job_title": "Automotive Service Assistant",
+    "company_name": "Goswami-Divan Tech",
+    "district": "Patiala",
+    "role_category": "Renewable Energy",
+    "min_qualification": "12th Pass",
+    "stipend_amount": 12000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in Patiala district."
+  },
+  {
+    "job_id": "JOB_082",
+    "job_title": "Electrical Maintenance Apprentice",
+    "company_name": "Babu, Chhabra and Garg Tech",
+    "district": "Puducherry",
+    "role_category": "Automotive Services",
+    "min_qualification": "10th Pass",
+    "stipend_amount": 10000,
+    "job_description": "Seeking enthusiastic apprentices for quality assurance roles. Requires basic technical understanding and hands-on tool operation. Position based in Tirupati district."
+  },
+  {
+    "job_id": "JOB_083",
+    "job_title": "Welder & Fabricator Trainee",
+    "company_name": "Badami Ltd Tech",
+    "district": "Chennai",
+    "role_category": "Automotive Services",
+    "min_qualification": "B.Sc",
+    "stipend_amount": 18000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in East Godavari district."
+  },
+  {
+    "job_id": "JOB_084",
+    "job_title": "Solar Panel Installation Helper",
+    "company_name": "Singhal and Sons Tech",
+    "district": "Faridabad",
+    "role_category": "Quality Assurance",
+    "min_qualification": "Graduate",
+    "stipend_amount": 10000,
+    "job_description": "Seeking enthusiastic apprentices for manufacturing & production roles. Requires basic technical understanding and hands-on tool operation. Position based in Mandi district."
+  },
+  {
+    "job_id": "JOB_085",
+    "job_title": "Manufacturing Technician Trainee",
+    "company_name": "Seth-Edwin Tech",
+    "district": "Kannur",
+    "role_category": "Automotive Services",
+    "min_qualification": "B.Sc",
+    "stipend_amount": 12000,
+    "job_description": "Seeking enthusiastic apprentices for manufacturing & production roles. Requires basic technical understanding and hands-on tool operation. Position based in Ballari district."
+  },
+  {
+    "job_id": "JOB_086",
+    "job_title": "Electrical Maintenance Apprentice",
+    "company_name": "Tandon, Ghose and Thakkar Tech",
+    "district": "Shimla",
+    "role_category": "Quality Assurance",
+    "min_qualification": "Diploma in Engineering",
+    "stipend_amount": 10000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in Nilgiris district."
+  },
+  {
+    "job_id": "JOB_087",
+    "job_title": "Solar Panel Installation Helper",
+    "company_name": "Sankar, Yogi and Kale Tech",
+    "district": "Nainital",
+    "role_category": "Renewable Energy",
+    "min_qualification": "Graduate",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for renewable energy roles. Requires basic technical understanding and hands-on tool operation. Position based in Nizamabad district."
+  },
+  {
+    "job_id": "JOB_088",
+    "job_title": "Field Support Technician",
+    "company_name": "Lall-Ramakrishnan Tech",
+    "district": "Hisar",
+    "role_category": "Quality Assurance",
+    "min_qualification": "12th Pass",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for electrical & electronics roles. Requires basic technical understanding and hands-on tool operation. Position based in Palakkad district."
+  },
+  {
+    "job_id": "JOB_089",
+    "job_title": "Welder & Fabricator Trainee",
+    "company_name": "Bhasin, Doctor and Date Tech",
+    "district": "Jammu",
+    "role_category": "Automotive Services",
+    "min_qualification": "10th Pass",
+    "stipend_amount": 8000,
+    "job_description": "Seeking enthusiastic apprentices for manufacturing & production roles. Requires basic technical understanding and hands-on tool operation. Position based in Mysuru district."
+  },
+  {
+    "job_id": "JOB_090",
+    "job_title": "Manufacturing Technician Trainee",
+    "company_name": "Bhatia LLC Tech",
+    "district": "Puducherry",
+    "role_category": "Electrical & Electronics",
+    "min_qualification": "Diploma in Engineering",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for manufacturing & production roles. Requires basic technical understanding and hands-on tool operation. Position based in Leh district."
+  },
+  {
+    "job_id": "JOB_091",
+    "job_title": "Quality Control Inspector Apprentice",
+    "company_name": "Sankaran Group Tech",
+    "district": "Palakkad",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "Diploma in Engineering",
+    "stipend_amount": 8000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in Kurnool district."
+  },
+  {
+    "job_id": "JOB_092",
+    "job_title": "CNC Machine Operator Trainee",
+    "company_name": "Magar, Pall and Panchal Tech",
+    "district": "Dakshina Kannada",
+    "role_category": "Quality Assurance",
+    "min_qualification": "Graduate",
+    "stipend_amount": 12000,
+    "job_description": "Seeking enthusiastic apprentices for renewable energy roles. Requires basic technical understanding and hands-on tool operation. Position based in Palakkad district."
+  },
+  {
+    "job_id": "JOB_093",
+    "job_title": "Manufacturing Technician Trainee",
+    "company_name": "Bhalla, De and Karpe Tech",
+    "district": "Dharamshala",
+    "role_category": "Renewable Energy",
+    "min_qualification": "Diploma in Engineering",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for automotive services roles. Requires basic technical understanding and hands-on tool operation. Position based in East Godavari district."
+  },
+  {
+    "job_id": "JOB_094",
+    "job_title": "CNC Machine Operator Trainee",
+    "company_name": "Deshmukh-Suresh Tech",
+    "district": "Bikaner",
+    "role_category": "Automotive Services",
+    "min_qualification": "B.Sc",
+    "stipend_amount": 12000,
+    "job_description": "Seeking enthusiastic apprentices for renewable energy roles. Requires basic technical understanding and hands-on tool operation. Position based in Kanpur district."
+  },
+  {
+    "job_id": "JOB_095",
+    "job_title": "Manufacturing Technician Trainee",
+    "company_name": "Yohannan and Sons Tech",
+    "district": "Bikaner",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "Diploma in Engineering",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for renewable energy roles. Requires basic technical understanding and hands-on tool operation. Position based in Puducherry district."
+  },
+  {
+    "job_id": "JOB_096",
+    "job_title": "Quality Control Inspector Apprentice",
+    "company_name": "Nair and Sons Tech",
+    "district": "Meerut",
+    "role_category": "Electrical & Electronics",
+    "min_qualification": "Graduate",
+    "stipend_amount": 18000,
+    "job_description": "Seeking enthusiastic apprentices for manufacturing & production roles. Requires basic technical understanding and hands-on tool operation. Position based in Lucknow district."
+  },
+  {
+    "job_id": "JOB_097",
+    "job_title": "Manufacturing Technician Trainee",
+    "company_name": "Sarma, Sood and Keer Tech",
+    "district": "Palakkad",
+    "role_category": "Manufacturing & Production",
+    "min_qualification": "B.Sc",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for manufacturing & production roles. Requires basic technical understanding and hands-on tool operation. Position based in Jodhpur district."
+  },
+  {
+    "job_id": "JOB_098",
+    "job_title": "Electrical Maintenance Apprentice",
+    "company_name": "Chokshi, Bhattacharyya and Garde Tech",
+    "district": "Karaikal",
+    "role_category": "Automotive Services",
+    "min_qualification": "B.Sc",
+    "stipend_amount": 8000,
+    "job_description": "Seeking enthusiastic apprentices for quality assurance roles. Requires basic technical understanding and hands-on tool operation. Position based in New Delhi district."
+  },
+  {
+    "job_id": "JOB_099",
+    "job_title": "Quality Control Inspector Apprentice",
+    "company_name": "Mane-Sundaram Tech",
+    "district": "Nizamabad",
+    "role_category": "Electrical & Electronics",
+    "min_qualification": "12th Pass",
+    "stipend_amount": 15000,
+    "job_description": "Seeking enthusiastic apprentices for quality assurance roles. Requires basic technical understanding and hands-on tool operation. Position based in Nainital district."
+  },
+  {
+    "job_id": "JOB_100",
+    "job_title": "CNC Machine Operator Trainee",
+    "company_name": "Vaidya and Sons Tech",
+    "district": "Kurnool",
+    "role_category": "Quality Assurance",
+    "min_qualification": "Diploma in Engineering",
+    "stipend_amount": 18000,
+    "job_description": "Seeking enthusiastic apprentices for quality assurance roles. Requires basic technical understanding and hands-on tool operation. Position based in Udaipur district."
+  }
+]

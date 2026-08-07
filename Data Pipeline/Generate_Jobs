@@ -1,0 +1,76 @@
+import json
+import random
+from faker import Faker
+
+fake = Faker('en_IN')
+
+# Combined South and North Indian Districts
+DISTRICTS = [
+    # South India
+    "Chennai", "Coimbatore", "Madurai", "Kanyakumari", "Nilgiris",
+    "Thiruvananthapuram", "Ernakulam", "Wayanad", "Palakkad", "Kannur",
+    "Bengaluru Urban", "Mysuru", "Dakshina Kannada", "Belagavi", "Ballari",
+    "Visakhapatnam", "Vijayawada", "Tirupati", "Kurnool", "East Godavari",
+    "Hyderabad", "Warangal", "Nizamabad", "Khammam", "Mahabubnagar",
+    "Puducherry", "Karaikal",
+    
+    # North India
+    "New Delhi", "Central Delhi", "Lucknow", "Kanpur", "Varanasi", "Agra",
+    "Gautam Buddha Nagar", "Prayagraj", "Meerut", "Ludhiana", "Amritsar",
+    "Jalandhar", "Patiala", "Bathinda", "Gurugram", "Faridabad", "Hisar",
+    "Panipat", "Ambala", "Jaipur", "Jodhpur", "Udaipur", "Kota", "Bikaner",
+    "Shimla", "Dharamshala", "Mandi", "Kullu", "Dehradun", "Haridwar",
+    "Nainital", "Srinagar", "Jammu", "Leh"
+]
+
+JOB_TITLES = [
+    "Manufacturing Technician Trainee",
+    "Electrical Maintenance Apprentice",
+    "Solar Panel Installation Helper",
+    "CNC Machine Operator Trainee",
+    "Quality Control Inspector Apprentice",
+    "Automotive Service Assistant",
+    "Welder & Fabricator Trainee",
+    "Field Support Technician"
+]
+
+ROLE_CATEGORIES = [
+    "Manufacturing & Production",
+    "Electrical & Electronics",
+    "Renewable Energy",
+    "Automotive Services",
+    "Quality Assurance"
+]
+
+MIN_QUALIFICATIONS =  ['10th Pass', '12th Pass', 'Diploma in Engineering', 'B.Sc', 'Graduate']
+
+def generate_jobs(count=100):
+    jobs = []
+    
+    for i in range(1, count + 1):
+        job = {
+            "job_id": f"JOB_{i:03d}",
+            "job_title": random.choice(JOB_TITLES),
+            "company_name": f"{fake.company()} Tech",
+            "district": random.choice(DISTRICTS),
+            "role_category": random.choice(ROLE_CATEGORIES),
+            "min_qualification": random.choice(MIN_QUALIFICATIONS),
+            "stipend_amount": random.choice([8000, 10000, 12000, 15000, 18000]),
+            "job_description": (
+                f"Seeking enthusiastic apprentices for {random.choice(ROLE_CATEGORIES).lower()} roles. "
+                f"Requires basic technical understanding and hands-on tool operation. "
+                f"Position based in {random.choice(DISTRICTS)} district."
+            )
+        }
+        jobs.append(job)
+        
+    return jobs
+
+if __name__ == "__main__":
+    data = generate_jobs(100)
+    
+    # Save the output to jobs.json
+    with open("jobs.json", "w") as f:
+        json.dump(data, f, indent=2)
+        
+    print("Successfully generated 100 synthetic job postings in jobs.json!")
